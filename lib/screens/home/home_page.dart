@@ -2,7 +2,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-// TODO: ใส่รหัสนักศึกษาที่ค่าสตริงนี้
 const studentId = '07610467';
 
 class HomePage extends StatefulWidget {
@@ -41,17 +40,17 @@ class _HomePageState extends State<HomePage> {
                   style: textTheme.headlineSmall!.copyWith(
                       fontWeight: FontWeight.bold, color: Colors.black87)),
               Container(
-                height: 100,
+                height: 90,
                 width: 200,
                 decoration: BoxDecoration(
                   color : Colors.lightGreen,
                   border: Border.all(width: 2, color: Colors.black),
-                  borderRadius: BorderRadius.all(Radius.circular(18)),
+                  borderRadius: BorderRadius.all(Radius.circular(20)),
                 ),
                 margin: const EdgeInsets.all(5),
                 child: Center(
                   child:
-                  Text('what is the longest river in the world',
+                  Text('what is the capital of France',
                     style: TextStyle(
                       fontSize: 20,
                     ),
@@ -59,7 +58,7 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
               Container(
-                height: 50,
+                height: 60,
                 width: 200,
                 decoration: BoxDecoration(
                   color : Colors.white,
@@ -69,7 +68,7 @@ class _HomePageState extends State<HomePage> {
                 margin: const EdgeInsets.all(5),
                 child: Center(
                   child:
-                  Text('Amazonriver',
+                  Text('Berlin',
                     style: TextStyle(
                       fontSize: 20,
                     ),
@@ -77,7 +76,7 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
               Container(
-                height: 50,
+                height: 60,
                 width: 200,
                 decoration: BoxDecoration(
                   color : Colors.white,
@@ -87,7 +86,7 @@ class _HomePageState extends State<HomePage> {
                 margin: const EdgeInsets.all(5),
                 child: Center(
                   child:
-                  Text('Nile River',
+                  Text('London',
                     style: TextStyle(
                       fontSize: 20,
                     ),
@@ -95,7 +94,7 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
               Container(
-                height: 50,
+                height: 60,
                 width: 200,
                 decoration: BoxDecoration(
                   color : Colors.white,
@@ -105,7 +104,7 @@ class _HomePageState extends State<HomePage> {
                 margin: const EdgeInsets.all(5),
                 child: Center(
                   child:
-                  Text('Mississippi  River',
+                  Text('Madrid',
                     style: TextStyle(
                       fontSize: 20,
                     ),
@@ -113,7 +112,7 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
               Container(
-                height: 50,
+                height: 60,
                 width: 200,
                 decoration: BoxDecoration(
                   color : Colors.white,
@@ -123,7 +122,7 @@ class _HomePageState extends State<HomePage> {
                 margin: const EdgeInsets.all(5),
                 child: Center(
                   child:
-                  Text('Yangtze River',
+                  Text('paris',
                     style: TextStyle(
                       fontSize: 20,
                     ),
@@ -163,8 +162,8 @@ class _HomePageState extends State<HomePage> {
 
         ),
         Container(
-          height: 500,
-          width: 500,
+          height: 600,
+          width: 600,
           decoration: BoxDecoration(
             color : Colors.white,
             border: Border.all(width: 2, color: Colors.black),
@@ -176,7 +175,6 @@ class _HomePageState extends State<HomePage> {
   }
 
   _buildButtonPanel() {
-    // TODO: build UI
     return Center(child: Text('TODO: build UI'));
   }
 }
