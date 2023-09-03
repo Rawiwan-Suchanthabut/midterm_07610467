@@ -51,7 +51,7 @@ class _HomePageState extends State<HomePage> {
                 margin: const EdgeInsets.all(5),
                 child: Center(
                   child:
-                  Text('What is the capital of France',
+                  Text('what is the longest river in the world',
                     style: TextStyle(
                       fontSize: 20,
                     ),
@@ -69,7 +69,7 @@ class _HomePageState extends State<HomePage> {
                 margin: const EdgeInsets.all(5),
                 child: Center(
                   child:
-                  Text('Berlin',
+                  Text('Amazonriver',
                     style: TextStyle(
                       fontSize: 20,
                     ),
@@ -87,7 +87,7 @@ class _HomePageState extends State<HomePage> {
                 margin: const EdgeInsets.all(5),
                 child: Center(
                   child:
-                  Text('London',
+                  Text('Nile River',
                     style: TextStyle(
                       fontSize: 20,
                     ),
@@ -105,7 +105,7 @@ class _HomePageState extends State<HomePage> {
                 margin: const EdgeInsets.all(5),
                 child: Center(
                   child:
-                  Text('Madrid',
+                  Text('Mississippi  River',
                     style: TextStyle(
                       fontSize: 20,
                     ),
@@ -123,7 +123,7 @@ class _HomePageState extends State<HomePage> {
                 margin: const EdgeInsets.all(5),
                 child: Center(
                   child:
-                  Text('Paris',
+                  Text('Yangtze River',
                     style: TextStyle(
                       fontSize: 20,
                     ),
