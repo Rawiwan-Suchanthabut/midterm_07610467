@@ -122,7 +122,7 @@ class _HomePageState extends State<HomePage> {
                 margin: const EdgeInsets.all(5),
                 child: Center(
                   child:
-                  Text('paris',
+                  Text('Paris',
                     style: TextStyle(
                       fontSize: 20,
                     ),
