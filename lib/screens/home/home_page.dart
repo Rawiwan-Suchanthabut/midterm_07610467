@@ -1,6 +1,6 @@
-// ignore_for_file: avoid_unnecessary_containers
 
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 // TODO: ใส่รหัสนักศึกษาที่ค่าสตริงนี้
 const studentId = '07610467';
@@ -40,21 +40,139 @@ class _HomePageState extends State<HomePage> {
                   textAlign: TextAlign.center,
                   style: textTheme.headlineSmall!.copyWith(
                       fontWeight: FontWeight.bold, color: Colors.black87)),
-              Spacer(),
-              _buildQuizView(),
-              Spacer(),
-              _buildButtonPanel(),
-              SizedBox(height: 16.0),
+              Container(
+                height: 100,
+                width: 200,
+                decoration: BoxDecoration(
+                  color : Colors.lightGreen,
+                  border: Border.all(width: 2, color: Colors.black),
+                  borderRadius: BorderRadius.all(Radius.circular(18)),
+                ),
+                margin: const EdgeInsets.all(5),
+                child: Center(
+                  child:
+                  Text('What is the capital of France',
+                    style: TextStyle(
+                      fontSize: 20,
+                    ),
+                  ),
+                ),
+              ),
+              Container(
+                height: 50,
+                width: 200,
+                decoration: BoxDecoration(
+                  color : Colors.white,
+                  border: Border.all(width: 2, color: Colors.black),
+                  borderRadius: BorderRadius.all(Radius.circular(18)),
+                ),
+                margin: const EdgeInsets.all(5),
+                child: Center(
+                  child:
+                  Text('Berlin',
+                    style: TextStyle(
+                      fontSize: 20,
+                    ),
+                  ),
+                ),
+              ),
+              Container(
+                height: 50,
+                width: 200,
+                decoration: BoxDecoration(
+                  color : Colors.white,
+                  border: Border.all(width: 2, color: Colors.black),
+                  borderRadius: BorderRadius.all(Radius.circular(18)),
+                ),
+                margin: const EdgeInsets.all(5),
+                child: Center(
+                  child:
+                  Text('London',
+                    style: TextStyle(
+                      fontSize: 20,
+                    ),
+                  ),
+                ),
+              ),
+              Container(
+                height: 50,
+                width: 200,
+                decoration: BoxDecoration(
+                  color : Colors.white,
+                  border: Border.all(width: 2, color: Colors.black),
+                  borderRadius: BorderRadius.all(Radius.circular(18)),
+                ),
+                margin: const EdgeInsets.all(5),
+                child: Center(
+                  child:
+                  Text('Madrid',
+                    style: TextStyle(
+                      fontSize: 20,
+                    ),
+                  ),
+                ),
+              ),
+              Container(
+                height: 50,
+                width: 200,
+                decoration: BoxDecoration(
+                  color : Colors.white,
+                  border: Border.all(width: 2, color: Colors.black),
+                  borderRadius: BorderRadius.all(Radius.circular(18)),
+                ),
+                margin: const EdgeInsets.all(5),
+                child: Center(
+                  child:
+                  Text('Paris',
+                    style: TextStyle(
+                      fontSize: 20,
+                    ),
+                  ),
+                ),
+              ),
             ],
           ),
         ),
       ),
     );
+
   }
 
-  _buildQuizView() {
+  _buildQuizView(String text) {
     // TODO: build UI
-    return Center(child: Text('TODO: build UI'));
+    return Column(
+      children: [
+        Container(
+          height: 500,
+          width: 500,
+          decoration: BoxDecoration(
+            color : Colors.white,
+            border: Border.all(width: 2, color: Colors.black),
+            borderRadius: BorderRadius.all(Radius.circular(18)),
+          ),
+
+          margin: const EdgeInsets.all(5),
+          child: Column(
+            children: [
+              SizedBox(width: 20,),
+              Text(text, style: GoogleFonts.sriracha(
+                fontSize: 25.0,
+              ),)
+            ],
+          ),
+
+        ),
+        Container(
+          height: 500,
+          width: 500,
+          decoration: BoxDecoration(
+            color : Colors.white,
+            border: Border.all(width: 2, color: Colors.black),
+            borderRadius: BorderRadius.all(Radius.circular(18)),
+          ),
+        )
+      ],
+    );
   }
 
   _buildButtonPanel() {
